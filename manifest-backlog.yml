@@ -5,6 +5,6 @@ applications:
   - route: backlog-pal-em.apps.evans.pal.pivotal.io
   memory: 1G
   instances: 1
-    services:
-    - tracker-backlog-database
-    - tracker-service-registry
+  services:
+  - tracker-backlog-database
+  - tracker-service-registry
